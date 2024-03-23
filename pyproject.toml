@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "feedback-bot"
+version = "0.1.0"
+description = ""
+authors = ["kill-your-soul <Platonovdi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "feedback_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlmodel = "^0.0.14"
+alembic = "^1.11.1"
+asyncpg = "^0.28.0"
+aiogram = "3.0.0b7"
+python-dotenv = "1.0.0"
+pydantic = "1.10.5"
+fluent-runtime = "0.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
